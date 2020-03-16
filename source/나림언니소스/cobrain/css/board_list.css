@@ -1,0 +1,143 @@
+
+.board_list_content{
+  width: 900px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.board_list_top{
+  margin-bottom: 10px;
+  border-top: 2px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.board_top_ul{
+  width: 100%;
+  list-style: none;
+}
+
+.board_top_ul li{
+  display: inline-block;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9{
+  font-size: 0.8rem;
+  height: 35px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  line-height: 35px;
+  text-align: center;
+}
+
+.col1{
+  width: 60px;
+}
+/* 제목 */
+.col2{
+  width: 300px;
+  text-align: left;
+}
+/* 댓글 */
+.col3{
+  width: 40px;
+}
+/* 추천 */
+.col4{
+  width: 40px;
+}
+/* 조회 */
+.col5{
+  width: 40px;
+}
+/* 작성자 */
+.col6{ 
+  width: 90px;
+}
+/* 등록일 */
+.col7{ 
+  width: 100px;
+  font-size: 0.7rem;
+}
+/* 언어 */
+.col8{ 
+  font-size: 0.7rem;
+  width: 80px;
+}
+/* 파일 */
+.col9{ 
+  font-size: 1rem;
+  width: 50px;
+}
+
+.board_header{
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: left;
+  line-height: 35px;
+  text-align: center;
+}
+
+.board_list_ul{
+  width: 100%;
+  list-style: none;
+}
+
+.board_list_ul li span{
+  display: inline-block;
+  margin: -1.2px;
+}
+
+.board_list_ul li span i{
+  color: gray;
+}
+
+.board_list_ul li span a{
+  color: #1d1d1d;
+  display: inline-block;
+  margin: -1.2px;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+.board_list_ul li span a{
+  color: #1d1d1d;
+  display: inline-block;
+  margin: -1.2px;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+.board_list_bottom{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px 10px 0px;
+  line-height: 40px;
+  border-top: 2px solid #dddddd;
+}
+
+.board_list_bottom span a{
+  color:#1d1d1d;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+.board_list_bottom button{
+  position: absolute;
+  right: 20px;
+  top: 4px;
+  width: 110px;
+  background-color: #e65553;
+  border: 1px solid #e65553;
+  font-size: 0.9rem;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  vertical-align: middle;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script type="text/javascript">
+    var name;
+    var id;
+    var number1;
+    var number2;
+
+    function setVisible(id,isVisible){
+      document.getElementById(id).nextSibling.style.visibility = isVisible;
+    }
+
+    function inspectForm() {
+      name = document.getElementById('name').value;
+      var expName = /^[a-zA-Z가-힣\x20]{2,8}$/;
+      if (!name.match(expName)) {
+        setVisible('name','visible');
+      }else{
+        setVisible('name','hidden');
+      }
+
+      number1 = document.getElementById('number1').value;
+      number2 = document.getElementById('number2').value;
+      var expNumber1 = /^\d{6}$/;
+      var expNumber2 = /^\d{7}$/;
+      if ((!(number1.match(expNumber1)) || !(number2.match(expNumber2)))) {
+        setVisible('number2','visible');
+      }else{
+        setVisible('number2','hidden');
+      }
+
+      id = document.getElementById('id').value;
+      var expId = /^[a-zA-Z]{1}[a-zA-Z0-9]{7,11}$/
+      if (!id.match(expId)) {
+        setVisible('id','visible');
+      }else{
+        setVisible('id','hidden');
+      }
+
+    }
+
+    function clearForm() {
+      var input = document.getElementsByTagName('input');
+      for (var i = 0; i < input.length; i++) {
+        if (input[i].type != 'button')
+          input[i].value = "";
+      }
+    }
+  </script>
+  <style>
+    span {
+      color: red;
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <form id="formDoc" action="#">
+    이 름: <input type="text" id="name"><span>*이름 오류</span><br />
+    주민번호: <input type="text" id="number1" style="width:80px"> - <input type="text" id="number2" style="width:80px"><span>*주민번호 오류</span><br />
+    아이디: <input type="text" id="id"><span>*아이디 오류</span><br />
+    <input type="button" value="등록" onclick="inspectForm()">
+    <input type="button" value="취소" onclick="clearForm()">
+  </form>
+
+</body>
+
+</html>

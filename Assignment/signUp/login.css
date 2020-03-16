@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+#header-div h2 img {
+  width: 50px;
+  height: 50px;
+}
+
+#header-div {
+  border-bottom: 1px solid #DBDBDB;
+}
+
+#rdo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#id {
+  margin-bottom: 10px;
+}
+
+#pw {
+  margin-bottom: 10px;
+}
+
+#loginbtn {
+  height: 60px;
+}
+
+#idpw-div {
+  display: inline-block;
+}
+
+.loginbutton {
+  display: inline-block;
+}

@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.center-div {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+#header #id {
+  margin-bottom: 20px;
+}
+
+#header #name {
+  margin-top: 20px;
+}
+
+#header #email {
+  margin-top: 20px;
+}
+
+
+
+
+#header input {
+  padding-left: 10px;
+}
+
+#buttonarea {
+  background-color: white;
+  font-size: 9px;
+  border: 1px solid #D8D8D8;
+}
+
+#c1 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}
+
+#tablediv {
+  width: 403.09px;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+table {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 8px;
+  text-align: center;
+  border: 1px solid #D8D8D8;
+  border-collapse: collapse;
+}
+
+#tabletr {
+  color: #848484;
+  background-color: #F2F2F2;
+}
+
+table tr td {
+  padding: 7px;
+  border: 1px solid #D8D8D8;
+}
+
+h4 {
+  color: #a4a4a4;
+}
+
+.Allconsent {
+  font-size: 11px;
+  width: 360px;
+  padding: 20px;
+  border: 1.5px solid #D8D8D8;
+  display: inline-block;
+}
+.consent1{
+  font-size: 13px;
+  display: inline-block;
+}
+.consent2{
+  margin-left: 40px;
+  display: inline-block;
+}
+
+#tablediv-table p{
+  font-size: 9px;
+}
+
+#table-Allconsent {
+  width: 403px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 8px;
+  text-align: center;
+  border: 1px solid #D8D8D8;
+  border-collapse: collapse;
+}
+
+#tabletr {
+  color: #848484;
+  background-color: #F2F2F2;
+}
+
+table tr td {
+  padding: 7px;
+  border: 1px solid #D8D8D8;
+}
+
+#signupbutton{
+  margin-top: 30px;
+  margin-left: 125px;
+  border: 1px solid red;
+  font-size: 15px;
+  color: white;
+  width: 150px;
+  height: 50px;
+  background-color: red;
+}

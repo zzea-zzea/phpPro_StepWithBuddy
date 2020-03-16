@@ -1,0 +1,59 @@
+D7:EB:1D:46:97:61:D5:D3:26:42:94:BF:72:DD:5A:39:69:05:DD:28
+유튜브
+AIzaSyD9QUhq0S_bF1GUu1x8jQrrqwGA0U_tILY
+
+android:layout_width=“345dp”
+
+       android:layout_height=“215dp”
+
+Installation failed with message Failed to finalize session : INSTALL_FAILED_INVALID_APK: Split lib_slice_5_apk was defined multiple times.
+It is possible that this issue is resolved by uninstalling an existing version of the apk if it is present, and then re-installing.
+
+WARNING: Uninstalling will remove the application data!
+
+Do you want to uninstall the existing application?
+
+
+clear 지우기
+pwd 현재 작업공간
+ls 폴더리스트
+모든명령어 --help 명령어에 작업 들어갈 수 있음
+git 깃이 잘 설치되었는지 확인
+cd .. '.' 자기자신. 앞에 '.' 하나 더 찍으면 상위폴더로이동
+mkdir +폴더이름 폴더생성
+cd +폴더이름+탭 폴더로 들어감
+git init 초기화. 필요한 최소3개의 폴더를 생성
+esc+:wq 저장하고나가기
+//config설정은 한번만
+git config usesr.name 아이디
+git config user.email 이메일
+rm -rf 폴더명/     폴더제거 하위폴더까지모두
+cp 파일1 파일2 <-파일1을 파일2에 복사
+git commit -am "메세지"
+git log -p 로그를 보여주는데 프로그램으로만
+git log 커밋주소 <<특정 로그만 보여줌
+git log 커밋주소1..커밋주소2 <<1~2까지의 로그만 보여줌
+git reset 주소 --hard <<특정 시점으로 돌아가기
+git branch 브런치목록보기
+git branch +이름 브런치 생성
+git checkout +브런치이름 서브브런치로 가기
+git log --branches --decorate --graph --oneline
+브런치 머지할때 CONFLICT가 나오면 나온사람이 똥치워야함
+머지하려는 파일이 파일명은 같은데 내용이 다르면 이 에러가 생김
+해당 파일 들어가면 HEAD부분이 본체부분,  그 밑이 병합하려는 부분임
+git reset 주소 --hard 되돌리기 완전히 커밋전 내가 작업했던것까지 모두 날라가고 완전히 전상태로 돌아감
+git reset 주소 --soft 되돌리기 히스토리영역만 날림.
+git reset 주소 --
+
+
+
+개인별 체크리스트
+스토리비ㅗ드x
+소스폴더 주석 잘달기
+모델링 
+디비
+동영상
+관리대장
+
+
+b357feaf0dda39486b01fa463c1de13facbdec4c
